@@ -61,6 +61,22 @@ var grade= prompt("enter grade");
 		alert("wrong");
  }
 
+//breaking your code apart functions
 
+function myFunction(){
 
+	alert("this is a function");
+}
+myFunction();
 
+// parameters and arguments
+
+function addTwonumbers(a,b){
+alert(a+b)
+}
+var x = prompt( "x=");
+var y = prompt("y=");
+}
+addTwonumbers(x,y);
+//variable function
+ var x; global variable
