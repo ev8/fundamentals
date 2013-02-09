@@ -80,3 +80,19 @@ var y = prompt("y=");
 addTwonumbers(x,y);
 //variable function
  var x; global variable
+
+// iteration and loops
+var a =0;
+while(a<10){
+alert(a);
+a++;
+}
+
+for ( var i=0; i<10;i++){
+alert(i);
+}
+a=0;
+do{
+alert(a);
+a++
+}while(a<10);
