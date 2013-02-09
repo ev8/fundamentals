@@ -15,7 +15,7 @@ alert(a);
 
 // characters and strings
 var phrase =" he said \"escape\" the quotes";
-var phrase2 = "this is a siimple phrase."
+var phrase2 = "this is a siimple phrase.";
 alert(phrase2.length);
 //concat strings
 alert(phrase+phrase2);
