@@ -15,7 +15,7 @@ alert(a);
 
 // characters and strings
 var phrase =" he said \"escape\" the quotes";
-var phrase2 = "this is a siimple phrase."
+var phrase2 = "this is a siimple phrase.";
 alert(phrase2.length);
 //concat strings
 alert(phrase+phrase2);
@@ -33,6 +33,33 @@ result ++;
 
 // properly using white space
 //one statement one line
+
+// conditionals
+
+var a = 10;
+var b  = prompt("enter value");
+if(a<b){
+alert("true");
+}else{
+alert("false");
+}
+
+//switches
+
+var grade= prompt("enter grade");
+ switch(grade){
+ 	case "A":
+		alert("pass");
+		break;
+	case "B":
+		alert("sort of pass");
+		break;
+	case "C":
+ 		alert("fail");
+		break;
+	default:
+		alert("wrong");
+ }
 
 
 
