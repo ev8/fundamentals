@@ -96,3 +96,37 @@ do{
 alert(a);
 a++
 }while(a<10);
+// strings and cancatinations
+var a = "help";
+var b = " me";
+var foo = "20";
+alert(a+b);
+
+var mynum= Number(foo);
+if(!isNaN(mynum)){
+ alert("it's a number");
+}
+// patterns in strings
+
+var phrase =" this is a phrase";
+alert(phrase.toUpperCase());
+var str1 = "hello";
+var str2 = "HELLO";
+if(str1.toLowerCase() == str2.toLowerCase()){
+alert(" they're equal");
+}
+
+var position = phrase.indexOf("is");
+alert(position);
+var len = phrase.length;
+alert(len);
+var segment = phrase.slice(2,5);
+alert(segment);
+
+// regular expressions
+var myRE = /hello/;
+myRE = new RegExp("hello");
+var mystring ="does this contain hello";
+if(myRE.test(mystring)){
+alert("true");
+}
