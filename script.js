@@ -130,3 +130,30 @@ var mystring ="does this contain hello";
 if(myRE.test(mystring)){
 alert("true");
 }
+
+//collections arrays
+
+var myarray=[1,2,3,4,"hello",6,7,8];
+alert(myarray[4]);
+
+//array behavior
+
+alert( myarray.length);
+
+//array methods
+myarray.reverse();
+alert(myarray[1]);
+myarray.sort();
+alert(myarray.join());
+myarray.push("pushed");
+alert(myarray.pop());
+
+//iterating through collections
+var myArray = [500,500,500,500,500];
+var total = 0;
+for ( var i = 0 ; i < myArray.length ; i++ ) {	
+         total = total + myArray[i];
+	 }
+alert("The total is: " + total);
+
+
