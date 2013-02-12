@@ -1,3 +1,4 @@
+function demo1(){
 alert("hello,world");
 
 //input
@@ -19,7 +20,9 @@ var phrase2 = "this is a siimple phrase.";
 alert(phrase2.length);
 //concat strings
 alert(phrase+phrase2);
+
 // operators
+
 var a = 10;
 var b = 7;
 var result = a+b;
@@ -60,26 +63,28 @@ var grade= prompt("enter grade");
 	default:
 		alert("wrong");
  }
-
+}
 //breaking your code apart functions
-
 function myFunction(){
 
 	alert("this is a function");
 }
+function addTwonumbers(a,b){
+alert(a+b);
+}
+
+function demo2(){
 myFunction();
 
 // parameters and arguments
 
-function addTwonumbers(a,b){
-alert(a+b)
-}
+
 var x = prompt( "x=");
 var y = prompt("y=");
-}
+
 addTwonumbers(x,y);
 //variable function
- var x; global variable
+//var G; global variable
 
 // iteration and loops
 var a =0;
@@ -94,8 +99,9 @@ alert(i);
 a=0;
 do{
 alert(a);
-a++
+a++;
 }while(a<10);
+
 // strings and cancatinations
 var a = "help";
 var b = " me";
@@ -106,8 +112,9 @@ var mynum= Number(foo);
 if(!isNaN(mynum)){
  alert("it's a number");
 }
+}
 // patterns in strings
-
+function demo3(){
 var phrase =" this is a phrase";
 alert(phrase.toUpperCase());
 var str1 = "hello";
@@ -155,5 +162,27 @@ for ( var i = 0 ; i < myArray.length ; i++ ) {
          total = total + myArray[i];
 	 }
 alert("The total is: " + total);
+}
+// playing with the dom/ event driven programing
 
+var headline = document.getElementById("mainheading");
+headline.onclick=function(){
+
+headline.innerHTML ="wow a new headline";
+};
+var headline1 = document.getElementById("heading1");
+headline1.onclick=function(){
+demo1();
+
+};
+var headline2 = document.getElementById("heading2");
+headline2.onclick=function(){
+demo2();
+
+};
+var headline3 = document.getElementById("heading3");
+headline3.onclick=function(){
+
+demo3();
+};
 
